@@ -2,7 +2,7 @@ const cj_icon = 'https://m.ccw.site/avatar/678cc9343778fc282d6252c5/4f8f1c67-6a2
 const bg_image = 'https://m.ccw.site/works-covers/617a5ac1-1944-400a-abc0-fbb3ea3e8d92.png';
 const extensionId = 'cjjgc'
 // 隐匿踪迹
-Scratch.runtime.extensionManager.vm.toJSON
+delete Scratch.runtime.extensionManager.vm.toJSON
 delete Scratch.runtime[`ext_${extensionId}`]
 delete Scratch.runtime.extensionManager._customExtensionInfo[extensionId]
 Scratch.runtime.extensionManager._loadedExtensions.delete(extensionId)
@@ -54,7 +54,7 @@ window.tempExt = {
     extensionId: 'cjjgc',
     featured: true,
     disabled: false,
-    iconURL: "https://m.ccw.site/works-covers/2b8f5cf0-bc8e-474e-b18a-9b06da529196.png",
+    // iconURL: "https://m.ccw.site/works-covers/2b8f5cf0-bc8e-474e-b18a-9b06da529196.png", 
     insetIconURL: cj_icon,
     collaboratorList: [
       {
