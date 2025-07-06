@@ -1,6 +1,6 @@
 const cj_icon = 'https://m.ccw.site/avatar/678cc9343778fc282d6252c5/4f8f1c67-6a2d-4670-bc70-a774bfe43b93.png';
 const bg_image = 'https://m.ccw.site/works-covers/617a5ac1-1944-400a-abc0-fbb3ea3e8d92.png';
-const extensionId = 'cjjgc'
+const extensionId = 'cjwb'
 // 隐匿踪迹
 delete Scratch.runtime.extensionManager.vm.toJSON
 delete Scratch.runtime[`ext_${extensionId}`]
