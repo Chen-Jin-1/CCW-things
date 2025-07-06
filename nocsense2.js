@@ -1,6 +1,6 @@
 document.querySelector('[title="CCW 脆弱性的根本证明。"]')?.remove()
 document.querySelector('.csense-window')?.remove()
-clicked_button = []
+let clicked_button = []
 function clickload() {
     const elements = document.querySelectorAll(`[style*="background-color: rgba(0, 0, 0, 0.5);"]`);
     elements.forEach((item, index) => {
