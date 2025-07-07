@@ -51,7 +51,7 @@ window.tempExt = {
   info: {
     name: '跳过警告窗',
     description: '再见，警告窗',
-    extensionId: 'cjjgc',
+    extensionId: 'cjwb',
     featured: true,
     disabled: false,
     // iconURL: "https://m.ccw.site/works-covers/2b8f5cf0-bc8e-474e-b18a-9b06da529196.png", 
