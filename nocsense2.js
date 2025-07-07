@@ -40,3 +40,22 @@ class cjnocsense {
 }
  
 Scratch.extensions.register(new cjnocsense)
+
+window.tempExt = {
+  Extension: cjnocsense,
+  info: {
+    name: '反 CSense',
+    description: '让 CSense 报废吧',
+    extensionId: 'cjnocsense',
+    featured: true,
+    disabled: false,
+    insetIconURL: cj_icon,
+    collaboratorList: [
+      {
+        collaborator: 'Chen-Jin @ CCW',
+        collaboratorURL:
+          'https://www.ccw.site/student/678cc9343778fc282d6252c5',
+      },
+    ],
+  },
+};
