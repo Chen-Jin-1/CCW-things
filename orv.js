@@ -28,8 +28,7 @@ Scratch.extensions.register(new cjorv)
 window.tempExt = {
   Extension: cjorv,
   info: {
-    name: '跳过警告窗',
-    description: '再见，警告窗',
+    name: '开放 runtime&vm',
     extensionId: 'cjorv',
     featured: true,
     disabled: false,
