@@ -17,7 +17,7 @@ class cjjgc {
   }
   getInfo() {
     return {
-      id: 'cjjgc',
+      id: extensionId,
       name: '跳过警告窗',
       color1: '#00aeff',
       menuIconURI: cj_icon,
