@@ -24,15 +24,20 @@ class cjnocsense {
   getInfo() {
     return {
       id: extensionId,
-      name: 'Chen-Jin 的反 CSense 扩展',
+      name: '⚠请尽快停用此扩展！\nChen-Jin 的反 CSense 扩展',
       color1: '#00aeff',
       menuIconURI: cj_icon,
       blocks: [
         {
-          opcode: 'nocszy',
-          text: '占位（反 CSense）',
-          blockType: null,
-        }
+          blockType: Scratch.BlockType.LABEL,
+          text: '请尽快卸载此扩展，\n若继续使用扩展，\n可能会导致你的工程无法打开\n你可以使用 CSense & Eureka 拦截器代替它'
+        },
+        // {
+        //   opcode: 'nocszy',
+        //   text: '占位（反 CSense）',
+        //   blockType: null,
+        //   hideFromPalette: true,
+        // }
       ],
     }
   }
