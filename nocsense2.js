@@ -26,7 +26,7 @@ class cjnocsense {
       id: extensionId,
       name: '⚠请尽快停用此扩展！\nChen-Jin 的反 CSense 扩展',
       color1: '#00aeff',
-      menuIconURI: cj_icon,
+      color2: '#ff0000',
       blocks: [
         {
           blockType: Scratch.BlockType.LABEL,
